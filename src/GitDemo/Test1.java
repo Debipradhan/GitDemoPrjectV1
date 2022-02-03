@@ -1,24 +1,22 @@
 package GitDemo;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+
 public class Test1 {
 
 	
-	
-	public static void main(String[] args) {
-		String s1="debi";
-		String s2=new String("debi");
-		System.out.println(s1.equals(s2));
-		int hungry = 100;
+	public static void main(String[] args)
+	{
+		int num=5;
+		int fact=1;
+		for(int i=num;i>=1;i--)
+		{
+			fact=fact*i;
+		}
+		System.out.println(fact);
+		}
 		
-		if(hungry == 100)
-		{
-			System.out.println("Eat something");
-		}
-		else
-		{
-			System.out.println("Do work......!!!!!");
-		}
-
 	}
 
-}
